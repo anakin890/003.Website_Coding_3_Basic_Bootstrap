@@ -1,0 +1,29 @@
+.tanpa-bootstrap {
+    border: none;
+    padding: 2px;
+    font-weight: 800;
+    font-size: 1em;
+    background-color: tomato;
+    color: #333;
+    cursor: pointer;
+}
+
+.tanpa-bootstrap:hover {
+    background-color: aqua;
+    color: black;
+    transform: rotateY(2);
+    transition: all .5s;
+}
+
+.container-footer {
+    height: 5vh;
+    background-color:#222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-size: 20px;
+    color: white;
+}

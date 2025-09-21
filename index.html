@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Kode dibawah ini didapatkan dari https://getbootstrap.com/ pada bagian Include via CDN dimana kita perlu copy ke Head dan Body (pada bagian paling bawah head & body)-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+  <div>  
+    <!-- START NAVBAR dari Bootstrap -->
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand">Anonymous Store</a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>  
+    <!-- END NAVBAR -->
+
+     <!-- START CAROUSEL -->
+     <!-- Carausel adalah  tampilan foto yang bisa di-slide-->
+    <div>
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/Asus-ROG.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Samsung-S25-ultra.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Macbook-M4-Pro.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- END CAROUSEL -->
+    
+    <!-- START FEATURE - CARD -->
+    <!-- Menggunakan Layout -> Grid -->
+    <div class="container mt-2 text-center">
+      <div class="row">
+        <div class="card col-sm-12">
+          <h5 class="card-header">Buy Notebook</h5>
+          <div class="card-body">
+            <h5 class="card-title">ASUS ROG</h5>
+            <img src="img/Asus-ROG-2.jpg" class="img-thumbnail" alt="...">
+            <p class="card-text">Gaming Notebook With High Specifications.</p>
+            <a href="#" class="btn btn-primary">Checkout Now !</a>
+          </div>
+        </div>
+        <div class="card col-sm-6">
+          <h5 class="card-header">Buy Handphone</h5>
+          <div class="card-body">
+            <h5 class="card-title">Samsung S25 Ultra</h5>
+            <img src="img/Samsung-S25-ultra-2.jpg"class="img-thumbnail" alt="...">
+            <p class="card-text">Handphone With Premium Specification.</p>
+            <a href="#" class="btn btn-primary">Checkout Now !</a>
+          </div>
+        </div>
+        <div class="card col-sm-6">
+          <h5 class="card-header">Buy Macbook</h5>
+          <div class="card-body">
+            <h5 class="card-title">M4 Macbook Pro</h5>
+            <img src="img/Macbook-M4-Pro-2.jpg"class="img-thumbnail" alt="...">
+            <p class="card-text">Macbook With PU for AI Running Locally.</p>
+            <a href="#" class="btn btn-primary">Checkout Now !</a>
+          </div>    
+        </div>
+      </div>    
+    </div>
+    <!-- END FEATURED - CARD -->
+    
+  </div>
+
+  <!-- FOOTER -->
+  <div class="container-footer">
+      <h1 class="h1-footer">This Website Was Created for Practice Only </h1>
+  </div>
+  <!-- FOOTER END -->
+
+  <!-- Berikut code button tanpa bantuan bootstrap -->
+  <!-- <button class="tanpa-bootstrap">Hello Tanpa Bootstrap</button> -->
+  <!-- Berikut code button dengan bantuan bootstrap -->
+  <!-- <button class="btn btn-primary">Hello Bootstrap</button> -->
+
+  <!-- Kode dibawah ini didapatkan dari https://getbootstrap.com/ pada bagian Include via CDN dimana kita perlu copy ke Head dan Body (pada bagian paling bawah head & body)Tambahan, link dibawah ini jika diakses maka akan berisi kode css yg disimpan di CDN yang dibuat oleh tim bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
+
